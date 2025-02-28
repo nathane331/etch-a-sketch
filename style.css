@@ -1,0 +1,58 @@
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(47, 55, 66);
+    
+ }
+
+ .title{
+    font-size: 48px;
+    color: white;
+    margin: 24px;
+    font-family: "Modak";
+ }
+
+
+.grid-container{
+    display: flex;
+    width: 700px;
+    height: 700px;
+    border: 16px rgb(189, 68, 68) solid;
+    border-radius: 10px;
+     
+}
+
+.column{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+}
+
+.pixel{
+    flex:auto;
+    border: 1px rgba(0, 0, 0, 0.493) dotted;
+}
+
+.button-container{
+    display:flex;
+    gap: 36px;
+    padding-bottom: 24px;
+
+}
+
+button{
+    font-family: "Jua";
+    font-size: 24px;
+    padding: 12px;
+    background-color: rgb(189, 68, 68);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: rgb(121, 43, 43);
+    color:khaki;
+}
