@@ -1,6 +1,6 @@
 
 const gridContainer = document.querySelector(".grid-container");
-let gridSize = 16;
+let gridSize = 10;
 
 
 function GenerateGrid(gridSize)
@@ -46,8 +46,6 @@ clearButton.addEventListener("click", () => {
     GenerateGrid(gridSize);
 });
 
-const rainbowButton = document.querySelector(".rainbow-mode");
-//rainbowButton.addEventListener("click", () => );
 
 const sizeButton = document.querySelector(".change-size");
 sizeButton.addEventListener("click", () => {
